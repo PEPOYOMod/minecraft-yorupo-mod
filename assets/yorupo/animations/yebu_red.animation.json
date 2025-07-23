@@ -1,0 +1,113 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.yebu_red.normal": {
+			"animation_length": 2,
+			"bones": {
+				"head2": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.7917": {
+							"vector": [7.5, 0, 0]
+						},
+						"1.5": {
+							"vector": [-10, 0, 0]
+						},
+						"2.0": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"left_arm": {
+					"rotation": {
+						"vector": [0, 0, -2.5]
+					}
+				},
+				"right_arm": {
+					"rotation": {
+						"vector": [0, 0, 2.5]
+					}
+				}
+			}
+		},
+		"animation.yebu_red.walk": {
+			"loop": true,
+			"animation_length": 0.75,
+			"bones": {
+				"left_arm": {
+					"rotation": {
+						"0.0": {
+							"vector": [25, 0, 0]
+						},
+						"0.3333": {
+							"vector": [-15, 0, 0]
+						},
+						"0.75": {
+							"vector": [25, 0, 0]
+						}
+					}
+				},
+				"right_arm": {
+					"rotation": {
+						"0.0": {
+							"vector": [-25, 0, 0]
+						},
+						"0.3333": {
+							"vector": [10, 0, 0]
+						},
+						"0.75": {
+							"vector": [-25, 0, 0]
+						}
+					}
+				},
+				"right_leg2": {
+					"rotation": {
+						"0.0": {
+							"vector": [-17.5, 0, 0]
+						},
+						"0.375": {
+							"vector": [17.5, 0, 0]
+						},
+						"0.75": {
+							"vector": [-17.5, 0, 0]
+						}
+					}
+				},
+				"left_leg2": {
+					"rotation": {
+						"0.0": {
+							"vector": [17.5, 0, 0]
+						},
+						"0.375": {
+							"vector": [-17.5, 0, 0]
+						},
+						"0.75": {
+							"vector": [17.5, 0, 0]
+						}
+					}
+				}
+			}
+		},
+		"animation.yebu_red.attack": {
+			"animation_length": 0.3333,
+			"bones": {
+				"right_arm": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 75]
+						},
+						"0.1667": {
+							"vector": [-67.5, 0, 75]
+						},
+						"0.3333": {
+							"vector": [10, 0, 0]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}
