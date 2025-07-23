@@ -1,0 +1,26 @@
+{
+  "hahahahahaha": {
+    "sounds": [
+      {
+        "name": "yorupo:pepoyo-menheramenjing_shen_bing_la_mian___0",
+        "stream": false
+      }
+    ]
+  },
+  "noodle": {
+    "sounds": [
+      {
+        "name": "yorupo:noodle",
+        "stream": false
+      }
+    ]
+  },
+  "disable": {
+    "sounds": [
+      {
+        "name": "yorupo:disable",
+        "stream": false
+      }
+    ]
+  }
+}
