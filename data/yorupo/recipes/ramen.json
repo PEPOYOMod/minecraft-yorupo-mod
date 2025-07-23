@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aab",
+    "cde",
+    "cfg"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "b": {
+      "item": "minecraft:gunpowder"
+    },
+    "c": {
+      "item": "minecraft:wheat"
+    },
+    "d": {
+      "item": "minecraft:spider_eye"
+    },
+    "e": {
+      "item": "minecraft:poisonous_potato"
+    },
+    "f": {
+      "item": "minecraft:bowl"
+    },
+    "g": {
+      "item": "minecraft:bone_meal"
+    }
+  },
+  "result": {
+    "item": "yorupo:ramen",
+    "count": 1
+  }
+}
