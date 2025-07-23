@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="yorupo"
+version="1.1.2"
+displayName="Yorupo"
+displayURL="https://modrinth.com/mod/yorupo-mod"
+logoFile="logo.png"
+credits="qq3091879669、qq3087488067、qq3880634331"
+authors="qq3091879669"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.yorupo]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+[[dependencies.yorupo]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration
