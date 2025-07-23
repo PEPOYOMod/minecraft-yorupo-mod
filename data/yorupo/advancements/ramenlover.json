@@ -1,0 +1,38 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "yorupo:ramen"
+    },
+    "title": {
+      "translate": "advancements.ramenlover.title"
+    },
+    "description": {
+      "translate": "advancements.ramenlover.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "ramenlover_0": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "taken": {
+            "min": 999,
+            "max": 999
+          },
+          "source_entity": {
+            "type": "yorupo:friendlyyorupo"
+          },
+          "blocked": true
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}
