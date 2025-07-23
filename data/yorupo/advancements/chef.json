@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "yorupo:nothing"
+    },
+    "title": {
+      "translate": "advancements.chef.title"
+    },
+    "description": {
+      "translate": "advancements.chef.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "chef_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "yorupo:ramen"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "yorupo:ramenlover"
+}
