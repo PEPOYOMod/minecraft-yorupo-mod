@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "yorupo:item/affl6-uex3t"
+  }
+}
